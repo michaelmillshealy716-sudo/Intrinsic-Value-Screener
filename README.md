@@ -24,4 +24,4 @@ $$NNWC = Cash + (0.75 \times Accounts Receivable) + (0.50 \times Inventory) - To
 By utilizing **LLMs for financial data extraction**, this tool can read the *footnotes* of financial statements—where the real liabilities are often hidden—something standard technical screeners miss entirely.
 
 ---
-*Status: Architecture Phase. Developing Python logic for automated data ingestion.*
+*Status: Architecture Phase. Developing Python logic for automated data ingestion.* 
