@@ -1,6 +1,12 @@
 # Intrinsic-Value-Screener
 AI-driven logic for Graham-Dodd fundamental analysis.
 
+⚠️ Intellectual Property Notice
+Software License: The source code in this repository is licensed under the MIT License.
+Proprietary Logic: The underlying quantitative strategies, specific financial weighting algorithms (e.g., NNWC ratios), and architectural reasoning loops described in this documentation are the Proprietary Intellectual Property of the author.
+While the MIT License permits the use and modification of the code, it does not grant rights to the unique financial 
+strategies or mathematical models expressed herein for commercial reproduction or rebranding without explicit consent.
+
 # Intrinsic-Value-Screener 📈
 **AI-driven logic for Graham-Dodd fundamental analysis.**
 
