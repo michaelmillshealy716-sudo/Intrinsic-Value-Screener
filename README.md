@@ -19,9 +19,9 @@ Most modern AI screeners focus on momentum. This logic focuses on **Asset Protec
 
 The primary filter is the **Net-Net Working Capital (NNWC)** model:
 
-$$NNWC = Cash + (0.75 \times Accounts Receivable) + (0.50 \times Inventory) - Total Liabilities$$
-
+The engine calculates Net-Net Working Capital (NNWC) using proprietary risk-adjusted weightings based on asset liquidity. These coefficients are tuned to prioritize conservative valuations in volatile market conditions.
 ### 🛠️ Execution Strategy
+
 1. **Data Acquisition:** AI agents parse SEC 10-K/10-Q filings for raw balance sheet data.
 2. **Margin of Safety:** We only alert when the Market Cap is < $2/3$ of the calculated NNWC.
 3. **Risk Mitigation:** Integrated checks for "Burn Rate" and "Dividend History" to ensure the company isn't just a value trap.
